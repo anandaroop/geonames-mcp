@@ -1,0 +1,7 @@
+{
+  "name": "gnmcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anandaroop Roy <anandaroop.roy+github@gmail.com>",
+  "license": "MIT"
+}
