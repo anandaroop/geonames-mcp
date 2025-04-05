@@ -1,5 +1,6 @@
 {
   "name": "gnmcp",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Anandaroop Roy <anandaroop.roy+github@gmail.com>",
@@ -11,5 +12,14 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
-  }
+  },
+  "bin": {
+    "geonames": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ]
 }
