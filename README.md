@@ -2,7 +2,7 @@
 
 A small Model Context Protocol server that knows how to query the [Geonames](http://www.geonames.org) API in order to look up toponyms for cartographic research.
 
-The repo also doubles as a home for [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/), which can actually make use of the MPC server, and can read the local [`CLAUDE.md`](/CLAUDE.md) file in order to be guided in its agentic behavior for orchestrating & performing such lookups and formatting their results.
+The repo also doubles as a home for [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/), which can actually make use of the MCP server, and can read the local [`CLAUDE.md`](/CLAUDE.md) file in order to be guided in its agentic behavior for orchestrating & performing such lookups and formatting their results.
 
 ## Setup
 
