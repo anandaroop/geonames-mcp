@@ -18,7 +18,7 @@ yarn build
 DEBUG=1 npx @modelcontextprotocol/inspector node /path/to/geonames-mcp/build/index.js
 
 # Add to Claude Code
-claude mcp add --scope local geonames node /Users/roop/src/me/geonames-mcp/build/index.js
+claude mcp add --scope local geonames node /path/to/geonames-mcp/build/index.js
 ```
 
 ## Example
